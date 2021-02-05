@@ -5,7 +5,12 @@
   display: table;
   margin-top: 20px;
   width: 100%;
-  background-color: #ecf1f2;
+  background-color: #ECF1F2;
+  padding: 20px;
+}
+
+.content:last-child {
+  margin-top: 0;
 }
 
 .content-cell {
@@ -18,6 +23,7 @@
   width: 100px;
   background-color: #fdc8b8;
 }
+
 .purple {
   background-color: #e0abd9;
 }
