@@ -1,21 +1,24 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.content {
-  display: table;
-  margin-top: 20px;
-  width: 100%;
+.back-ground-color {
   background-color: #ECF1F2;
   padding: 20px;
 }
 
-.content:last-child {
+.content:first-child {
   margin-top: 0;
+}
+
+.content {
+  display: table;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .content-cell {
   display: table-cell;
-  padding: 20px;
+  padding: 20px 0;
   text-align: center;
 }
 
